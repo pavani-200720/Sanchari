@@ -1,0 +1,50 @@
+export const MOCK_CASES = [
+  {
+    id: "CASE-2026-IN-089",
+    title: "Operation CyberShield - Defense Procurement Data Exfiltration",
+    category: "Cyber Espionage & Data Exfiltration",
+    status: "ACTIVE_INVESTIGATION",
+    classification: "TOP_SECRET",
+    priority: "CRITICAL",
+    leadOfficer: "Ins. Rajesh Verma (CERT-In / Cyber Cell)",
+    prosecutor: "Adv. V. Swaminathan (Special Prosecutor)",
+    analyst: "Dr. Ananya Roy (Lead Forensic Specialist)",
+    courtReference: "CBI-ND-2026-4421",
+    createdDate: "2026-08-14T09:30:00Z",
+    evidenceCount: 14,
+    tamperAlerts: 1,
+    description: "Investigation into unauthorized remote access and exfiltration of encrypted defense procurement dockets and financial transactions from secure infrastructure."
+  },
+  {
+    id: "CASE-2026-IN-104",
+    title: "Project HawalaNet - Cross-Border Cryptocurrency Money Laundering",
+    category: "Financial Fraud & Crypto Laundering",
+    status: "UNDER_REVIEW",
+    classification: "CONFIDENTIAL",
+    priority: "HIGH",
+    leadOfficer: "Ins. K. S. Nair (ED Cyber Division)",
+    prosecutor: "Adv. Meera Sen",
+    analyst: "Mr. Rohan Mehta",
+    courtReference: "ED-MUM-2026-8812",
+    createdDate: "2026-08-22T14:15:00Z",
+    evidenceCount: 9,
+    tamperAlerts: 0,
+    description: "Multi-jurisdiction forensic analysis of wallet clusters, shell company invoices, and encrypted chat exports linked to illegal offshore remittances."
+  },
+  {
+    id: "CASE-2026-IN-112",
+    title: "GridShield Attack - Critical Power Infrastructure Ransomware Probe",
+    category: "Critical Infrastructure Cyber Attack",
+    status: "FORENSIC_TRIAGE",
+    classification: "RESTRICTED",
+    priority: "CRITICAL",
+    leadOfficer: "DySP Arvind Sharma (NCIIPC)",
+    prosecutor: "Adv. S. K. Gupta",
+    analyst: "Dr. Ananya Roy",
+    courtReference: "NIA-DL-2026-0091",
+    createdDate: "2026-09-01T11:00:00Z",
+    evidenceCount: 22,
+    tamperAlerts: 2,
+    description: "Forensic extraction of SCADA PLC memory dumps, malicious DLL payloads, and lateral movement network logs following targeted industrial control malware."
+  }
+];
